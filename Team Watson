@@ -1,0 +1,11 @@
+# Team Watson
+
+## Task: 
+Team task for stage 0 HackBio internship.
+* Individul team members wrote scripts in different languages.
+* Programming languages used are:
+1. Python
+2. PHP
+3. C++
+4. R language
+Team member's scripts were merged to the team's repository. As a team, the repository was cloned using bash command line to generate a CSV file.
