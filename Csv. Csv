@@ -1,0 +1,25 @@
+#!/bin/bash
+​
+read -p "Enter the url of the link you're trying to clone and also the clone folder name " url foldername
+​
+git clone $url $foldername 
+​
+filenames=$(ls -t "./$foldername")
+​
+for filename in $filenames
+do
+    chmod 755 "./$foldername/$filename"
+    ext=${filename##*.}
+​
+    # if ["$ext" = "py"] ; then
+    #     python3 "./$foldername/$filename" >> info.csv
+    #     continue
+    # elif ["$ext" = "php"] ; then
+    #     php "./$foldername/$filename" >> info.csv
+    #     continue
+    # else
+    #     echo "File $ext type unknown"
+    #     continue
+    # fi
+    "./$foldername/$filename" >> info.csv
+done
