@@ -3,8 +3,4 @@ email = "gracejeta08@gmail.com"
 language = "python"
 biostack = "drug development"
 slack_username = "@grace"
-print(name)
-print(email)
-print(language)
-print(biostack)
-print(slack_username)
+print(name, email, language, biostack, slack_username)
