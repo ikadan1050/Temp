@@ -1,0 +1,1 @@
+print('peter josiah aminu,', 'josiahpeter61@gmail.com,', 'python,', 'genomics,', '@josiah24')
