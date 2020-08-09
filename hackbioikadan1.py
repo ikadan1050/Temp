@@ -12,4 +12,4 @@ Email = "ikadanjuma@gmail.com"
 Language = "python"
 Biostack = "Drug development"
 Slack_username = "@ikadan"
-print ("name: %s \nEmail: %s \nprogramming Language used: %s \nBiostack username: %s \nSlack username: %s" %(Name, Email, Language, Biostack, Slack_username,))
+print('Ika Danjuma Mbateudi,', '@ikadan,', 'Python,' , 'ikadanjuma@gmail.com', 'Drugs development')
